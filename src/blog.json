@@ -1,0 +1,99 @@
+{
+    "prework": [
+            {"week" : 1,
+                "title" : "Week 1",
+        "content": ["In week one we covered the basics of github, which I had not handled from the back end previously.  I find that I am struggling a little bit with interfacing with it from the command line even though I can stumble through, but I think that will come with practice and the handy reference sheet we've been linked to. Otherwise my greatest struggles have been adjusting to using a mac, and time management since I've been in overtime at work while beginning this course.  I already have a basic familiarity with HTML and some experience altering CSS and am very much looking forward to learning more about them."]
+    }
+    ,
+
+    {   "week": 2,
+        "title": "Week 2",
+        "content": ["Once more my greatest enemy this week was time and time management, trying to find room to fit in all the reading and practice exercises we were given.  I had some issues comprehending some of the CSS documentation, and eventually realized the best thing to do was to go for my old tried and true method, winging it.  I tend to learn better in a mix of demonstration and guided hands on activities anyway, so swapping to this process helped me feel a little more confident.  By doing first I was able to go back and better understand what I was reading since I had handled some code.",
+        "Pseudocoding is something that I think I am going to struggle with from an implementation standpoint.  Conceptually I get it, but I’m more mentally geared towards narrative writing than technical writing so I’m going to struggle a little with writing it in terms of functions as objects vs. just saying what it does.",
+        "I’m starting to think the layout I was looking at for my blog may require javascript, so I’m looking forward to seeing what’s possible with it as we get into it. My experience with it is much, much older than my prior experience with HTML and CSS so it’s going to be much closer to new territory for me."
+        ]
+    }
+    ,
+
+        {
+            "week": 3,
+            "title":"Week 3",
+        "content": ["Week 3 of our prework is the last week during which I was responsible for overtime at work, and hopefully the end of lagging slightly behind because of it. We dove into javascript this week, which I confess to struggling slightly with. While the syntax is incredibly important, I almost get the feeling that so long as you're typing words and those words are defined something will happen. It might not be what was intended, but it's something alright! I'm doing much better with guided javascript exercises than more freeform ones, which I think is just a matter of really internalizing the logic of the language.",
+        "I wasted quite a bit of time on attempting to create a modal element to contain these blog posts in such that they'll all appear on the same page. While the modal element itself works perfectly, I somehow managed to break closing it, and much of the documentation I'm able to find referring to modals discusses them specifically in the context of bootstrap. As such I've temporarily abandoned that and will continue looking for an elegant solution to my problem."
+    ]
+        }
+    ,
+{   "week": 4,
+        "title": "Week 4",
+        "content": ["Week 4 was the last week of our pre-work and consequently the last week of work for me.  Balancing completion of assignments off of workload has been a challenge, particularly since, as mentioned previously, my last weeks of work involved a significant amount of overtime.  I began these classes in large part because my unit at the workplace I'm leaving lost their contract and will be dissolved by the end of June. However, the drawdown of work has not progressed as expected, and more members of the unit left early than originally expected, resulting in the overtime.  I'm relieved to no longer be splitting my energy between both environments.",
+
+        "I didn't make many changes to this blog this week as we'll be refactoring with boostrap soon.  We had two js assignments this week involving time functions and incorporating time into js apps: a clock and a timer.  While it took me a while to figure out the clock in a satisfactory way, once I had it I was able to reuse some of the code for my timer as a few of the functions were shared across both."
+    ]}],
+
+"class": [
+{"week": 5,
+        "title": "Week 1",
+        "content": ["This was our first week in person in class, and while I find the environment supportive and surprisingly conducive to work this week really hammered home my need to increase my efficiency in arriving at the correct questions to begin asking to understand a challenge.  I spent three days this week coding for 14 or more hours, which is obviously unsustainable--though at this juncture while it was stressful it was enjoyable at times to immerse myself so fully in making something.  We worked extensively with bootstrap this week while creating a fake campaign website, and I both loathe and love it.  The use of a library is both boon and bane--much of the CSS is done for me, but the strictures of that CSS are not fully transparent.  As a result I struggled with getting the appearance and effects I desired without the brute force of augmenting CSS.",
+            
+            "Our second project was a mindreader game showcasing  a simple mathematical formula that always produces the same result.  I struggled with this one as well, but the problem turned out not to be anything I was coding incorrectly, but not understanding the logic by which elements are created in js.  I was trying to serve the entire webpage and thus all the styling out of the js file, and while I succeeded to a certain degree the appearance of the project left something to be desired.  I learned a great deal that I intend to take advantage of moving forward as I refactor my blog, in particular about serving a site dynamically."
+    ]},
+
+        {"week": 6,
+            "title": "Week 2",
+        "content":["In week six we began work with APIs and a little more seriously into app design with a simple weather app.  I enjoyed the creative freedom of this project, and working with the data provided by the API led me to a greater understanding of arrays in general and interacting with JSON.  I struggled some with manipulating arrays up until this point, but the manner in which the data returned by the API was structured gave me something of a breakthrough moment.",
+        "Additionally we worked with a simple game designed to teach us about object oriented programming."
+    ]},
+
+        {"week": 7,
+            "title":"Week 3",
+        "content":["This week we began work on a tic-tac-toe game, which wound up teaching me quite a bit about passing data around and lateral thinking in how to store and retrieve data about the position of something on screen.  Once we completed this we began work on a calculator project, designed to teach us more about classes.  We used a model-view-controller setup, and the structure provided by that helped me with layout and passing around data.  This program required several rounds of pseudocoding, and I wound up not completing it on time.  Much of the class was in the same boat, so we're demoing this project next week."]
+        },
+    {"week": 8,
+        "title":"Week 4",
+    "content":["Week 8 we installed and began working with NPM, then React.  I struggled a great deal with mental and physical fatigue this week, especially early on, and it impacted my learning significantly.  We moved into one of the coworking spaces at Awesome INC since most other people using the building went work from home due to COVID-19, and by Wednesday afternoon we switched to remote work as well.  I spent more time the rest of this week setting up my workspace and making preparations to spend significantly more time at home thank usual than I did on actual work."]
+    },
+    {"week": 9,
+        "title":"Week 5",
+    "content":["This is the first full week working from home, in which we were supposed to complete a to do list app with react and bootstrap.  I'm still struggling to fill in the holes left by my difficulties early last week, and working in the same space I decompress in is very difficult.  While I am determined to see things through I fell behind this week, and I suspect that will carry over into next week as well as a number of stressful 'real life' distractions continue to loom--hurry up and wait type situations where I can't do much, which always produces great frustration since I prefer to get personal business finished as fast as possible (something I had to learn in order to avoid procrastinaion--so when something holds me back from addressing a problem quickly I feel like I'm in danger of backsliding).  I'm struggling a little with passing information back and forth between different components of React, and with maintaining focus while working from home.",
+    "Unrelated to anything, a pair of mourning doves started nesting in a pot on my back porch this week."
+]},
+    {"week": 10,
+        "title":"Week 6",
+    "content":["Technically this is an additional week in the middle of bootcamp to accomodate for time lost to adjusting to learning remote.  I struggled especially this week with the constant temptation of work left unfinished around the house since I went from several weeks of overtime straight into bootcamp."
+]},
+    {"week": 11,
+        "title":"Week 7",
+    "content":[
+]},
+
+    {
+        "week": 12,
+        "title":"Week 8",
+    "content":[
+]},
+
+    {"week": 13,
+        "title":"Week 9",
+    "content":[
+]},
+
+    {"week": 14,
+        "title":"Week 10",
+    "content":[
+]},
+
+    {"week": 15,
+        "title":"Week 11",
+    "content":[
+]},
+
+    {"week": 16,
+        "title":"Week 12",
+    "content":[
+]},
+
+    {"week": 17,
+        "title":"Week 13",
+    "content":[
+]}]
+}

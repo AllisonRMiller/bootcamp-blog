@@ -1,13 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* background-color: black; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('Summer_Trip_2016_pt_1_209 copy.JPG');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.dropdown-menu{
+  overflow: auto;
+}
+
+.navbar, .nav, .navitem, .nav-link .dropdown, #classDrop, #preDrop{
+  color: #bad8eb;
+  text-transform:uppercase;
+  font-family: 'Cormorant Garamond', serif;
+  /* background-color: rgba(16, 32, 41); */
+}
+
+
+h1, h2, h3, h4, h5 {
+  text-transform:uppercase;
+  font-family: 'Cormorant Garamond', serif;
 }

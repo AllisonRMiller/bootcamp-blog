@@ -13,6 +13,7 @@ CardSubtitle
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import Proto from './prophoto.png';
 
 
 const Landing = (props) => {
@@ -22,7 +23,8 @@ const Landing = (props) => {
         <div id="overlay" className="mt-5 pt-2">
                     <Container className="mt-5 pt-5">
             <Row>
-                <Col >
+            <Col className="col-md-1"></Col>
+                <Col className="col-md-6">
                         <Card className="mt-5">
                         <CardTitle className="ml-2 mt-2">
                             <h4>Allison R. Miller</h4>
@@ -37,7 +39,7 @@ const Landing = (props) => {
                             <CardText>
                                 <p>Trained in HTML, CSS, JS, Reactjs, MySql, PHP, and Laravel.<br/>
                                     Years of experience in troubleshooting, repair, and management.<br/>
-
+                                    
                                 </p>
                             </CardText>
                             </CardBody>
@@ -49,11 +51,10 @@ const Landing = (props) => {
                             </CardFooter>
                         </Card>
                 </Col>
-                <Col>
+                <Col className="col-md-3">
 
-                            <Card className="mt-5">
-                            <CardText>Placeholder</CardText>
-                            <CardImg right="true" src=""></CardImg>
+                            <Card className="mt-4 bg-primary">
+                            <img className="thumbnail" id="proselfie" src={Proto}></img>
                             </Card>
                 </Col>
             </Row>

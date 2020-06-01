@@ -11,7 +11,7 @@ import './App.css';
 import TopNav from './navbar.js';
 import Landing from './landing.js';
 import Blog from './blog.js';
-// import Portfolio from './portfolio.js';
+import Portfolio from './portfolio.js';
 
 
 
@@ -27,9 +27,9 @@ function App() {
           <Route path="/blog">
             <Blog />
           </Route>
-          {/* <Route path="/portfolio">
+          <Route path="/portfolio">
             <Portfolio />
-          </Route> */}
+          </Route>
 
         </Switch>
 

@@ -64,15 +64,6 @@ const Blog = (props) => {
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav dark  color="primary" className="mx-auto text-light flex-sm-column pb-3 mb-2">
-                            {/* <DropdownToggle caret id="collapsePrework">Prework</DropdownToggle>
-                
-                <UncontrolledDropdown toggler="#collapsePrework">
-
-                </UncontrolledDropdown>
-                <NavItem data-toggle="dropdown" href="#collapseClass" role="button" aria-expanded="false" aria-controls="collapseClass" id="collapseClass">Class</NavItem>
-                <UncontrolledDropdown toggler="#collapseClass">
-
-                </UncontrolledDropdown> */}
 
 
                             <UncontrolledDropdown direction="right" className="mb-2">

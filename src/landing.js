@@ -13,7 +13,6 @@ CardSubtitle
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 
 const Landing = (props) => {
@@ -25,26 +24,28 @@ const Landing = (props) => {
             <Row>
                 <Col >
                         <Card className="mt-5">
-                        <CardTitle className="ml-2">
+                        <CardTitle className="ml-2 mt-2">
                             <h4>Allison R. Miller</h4>
                         </CardTitle>
                         <CardSubtitle className="ml-2">
                             Graduate Awesome, Inc Bootcamp Spring 2020<br />
                             Graduate University of Kentucky 2008<br />
-                            Full stack developer
+                            Full stack developer<br />
                             Available for hire
                         </CardSubtitle>
                             <CardBody>
                             <CardText>
-                                <p>I like to say my first paying job was installinxg a dialup modem for a friend's family in elementary school. Throughout my education and my career I've remained the tutor and the tech even when it wasn't in my title.</p>
+                                <p>Trained in HTML, CSS, JS, Reactjs, MySql, PHP, and Laravel.<br/>
+                                    Years of experience in troubleshooting, repair, and management.<br/>
+
+                                </p>
                             </CardText>
                             </CardBody>
                             <CardFooter className="text-center">
-                            <FontAwesomeIcon icon={faLinkedinIn} className="ml-2 mr-2" />
-                            <FontAwesomeIcon icon={faGithub} className="mr-2" />
-                            <FontAwesomeIcon icon={faInstagram} className="mr-2" />
-                            <span className="iconify" data-icon="simple-icons:codewars" data-inline="false"></span>
-                            <FontAwesomeIcon icon={faEnvelope} className="ml-2 mr-2"/>
+                            <FontAwesomeIcon href="" icon={faLinkedinIn} className="ml-2 mr-3" />
+                            <FontAwesomeIcon href="https://github.com/AllisonRMiller" icon={faGithub} className="mr-3" />
+                            <FontAwesomeIcon href="https://www.instagram.com/stormcalled/" icon={faInstagram} className="mr-3" />
+                            <span href="https://www.codewars.com/users/ARMiller" className="iconify" data-icon="simple-icons:codewars" data-inline="false"></span>
                             </CardFooter>
                         </Card>
                 </Col>

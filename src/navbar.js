@@ -27,13 +27,13 @@ const TopNav = (props) => {
                     <Collapse isOpen={isOpen} navbar className="justify-content-center">
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href="/"><h5>Home</h5></NavLink>
+                                <NavLink href="/"><h4>Home</h4></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/blog"><h5>Blog</h5></NavLink>
+                                <NavLink href="/blog"><h4>Blog</h4></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/portfolio"><h5>Portfolio</h5></NavLink>
+                                <NavLink href="/portfolio"><h4>Portfolio</h4></NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

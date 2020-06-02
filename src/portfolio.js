@@ -74,7 +74,7 @@ const Portfolio = (props) => {
                             </CardText>
                             <CardText className="text-center">
                             <Button color="link" href="https://github.com/AllisonRMiller/tempest-prognosticator"><h4><FontAwesomeIcon icon={faGithub}/></h4></Button>
-                            <Button color="link"><h4><FontAwesomeIcon icon={faCloudMoonRain}/></h4></Button>
+                            <Button color="link" href="https://tempest-prognosticator.web.app/"><h4><FontAwesomeIcon icon={faCloudMoonRain}/></h4></Button>
                             </CardText>
                         </CardBody>
                     </Card>

@@ -5,22 +5,15 @@ import {
     Col,
     Card,
     CardBody,
-    CardFooter,
-    CardImg,
     CardTitle,
     CardText,
-    CardSubtitle,
     Collapse,
     Navbar,
-    NavbarBrand,
     NavbarToggler,
     Nav,
-    NavItem,
     NavLink,
     UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPenNib } from '@fortawesome/free-solid-svg-icons';
 import blogRaw from './blog.json';
 
 
@@ -34,9 +27,7 @@ const Blog = (props) => {
     console.log(blogParsed);
     console.log(blogParsed.length);
 
-    // const changeEntry = (e,title) => {
-    //     e.target.preventDefault()
-    // }
+
 
     const generateSideNav = (x) => {
 
@@ -58,11 +49,9 @@ const Blog = (props) => {
 
     return (
         <Container className="mt-5 pt-5"><Row >
-            {/* <Col>
-        <Container><Row> */}
+
             <Col className="col-md-3">
                 <Navbar dark color="primary" vertical="true" expand="md" className="text-light mt-5 ml-0 pt-5">
-                    {/* <NavbarBrand src="./rizky-subagja-ZfVEWZTHs8M-unsplash.png" className="img-circle"/> */}
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav dark  color="primary" className="mx-auto text-light flex-sm-column pb-3 mb-2">
@@ -88,12 +77,7 @@ const Blog = (props) => {
                         </Nav>
                     </Collapse>
                 </Navbar>
-                {/* </Col>
-        
-          </Row>
 
-
-          </Container>         */}
             </Col>
             <Col>
                 <Container className="mt-5">

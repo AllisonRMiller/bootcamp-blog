@@ -5,21 +5,15 @@ import {
     Col,
     Card,
     CardBody,
-    CardFooter,
-    CardImg,
     CardTitle,
     CardText,
-    CardSubtitle,
     Collapse,
     Navbar,
     NavbarToggler,
     Nav,
-    NavItem,
     NavLink,
     UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPenNib } from '@fortawesome/free-solid-svg-icons';
 import blogRaw from './blog.json';
 
 
@@ -33,9 +27,7 @@ const Blog = (props) => {
     console.log(blogParsed);
     console.log(blogParsed.length);
 
-    // const changeEntry = (e,title) => {
-    //     e.target.preventDefault()
-    // }
+
 
     const generateSideNav = (x) => {
 
@@ -57,8 +49,7 @@ const Blog = (props) => {
 
     return (
         <Container className="mt-5 pt-5"><Row >
-            {/* <Col>
-        <Container><Row> */}
+
             <Col className="col-md-3">
                 <Navbar dark color="primary" vertical="true" expand="md" className="text-light mt-5 ml-0 pt-5">
                     <NavbarToggler onClick={toggle} />
@@ -86,12 +77,7 @@ const Blog = (props) => {
                         </Nav>
                     </Collapse>
                 </Navbar>
-                {/* </Col>
-        
-          </Row>
 
-
-          </Container>         */}
             </Col>
             <Col>
                 <Container className="mt-5">

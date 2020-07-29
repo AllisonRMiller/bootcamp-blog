@@ -40,7 +40,7 @@ const Portfolio = (props) => {
                             </CardText>
                             <CardText className="text-center">
                             <Button color="link" href="https://github.com/AllisonRMiller/bootcamp-blog"><h4><FontAwesomeIcon icon={faGithub}/></h4></Button>
-                            <Button color="link"><h4><FontAwesomeIcon icon={faPenNib}/></h4></Button>
+                            <Button color="link" href="https://armiller-blog.web.app/"><h4><FontAwesomeIcon icon={faPenNib}/></h4></Button>
                             </CardText>
                         </CardBody>
                         
@@ -74,11 +74,41 @@ const Portfolio = (props) => {
                             </CardText>
                             <CardText className="text-center">
                             <Button color="link" href="https://github.com/AllisonRMiller/tempest-prognosticator"><h4><FontAwesomeIcon icon={faGithub}/></h4></Button>
-                            <Button color="link"><h4><FontAwesomeIcon icon={faCloudMoonRain}/></h4></Button>
+                            <Button color="link" href="https://tempest-prognosticator.web.app/"><h4><FontAwesomeIcon icon={faCloudMoonRain}/></h4></Button>
                             </CardText>
                         </CardBody>
                     </Card>
 
+
+                    <Card>
+                        <CardTitle className="mt-2">
+                        <h4 className="text-center">Mindgames</h4>
+                        </CardTitle>
+                        <CardBody>
+                            <CardText>
+                                <p>Mindreader math game.</p>
+                                <p>Reactjs, Bootstrap</p>
+                            </CardText>
+                            <CardText className="text-center">
+                                <Button color="link" href="https://github.com/AllisonRMiller/mindgames"><h4><FontAwesomeIcon icon={faGithub}/></h4></Button>
+                            <Button color="link" href="https://mindgamesreact.web.app"><h4><FontAwesomeIcon icon={faBrain}/></h4></Button>
+
+                            </CardText>
+                            </CardBody>
+                    </Card>
+</CardColumns>
+
+
+                </Col>
+            </Row>
+            
+        </Container>
+        <Container>
+            <Row>
+                <Col>
+                    <Container className="mt-3 mb-3 mw-25 p-2 bg-primary text-light"><h3 className="pt-1 text-center">Coming Soon</h3></Container>
+                    <CardColumns>
+                    
                     <Card>
                         <CardTitle className="mt-2">
                         <h4 className="text-center">Taskmaster</h4>
@@ -110,35 +140,6 @@ const Portfolio = (props) => {
                             </CardText>
                         </CardBody>
                     </Card>
-
-                    <Card>
-                        <CardTitle className="mt-2">
-                        <h4 className="text-center">Mindgames</h4>
-                        </CardTitle>
-                        <CardBody>
-                            <CardText>
-                                <p>Mindreader math game.</p>
-                                <p>Reactjs, Bootstrap</p>
-                            </CardText>
-                            <CardText className="text-center">
-                                <Button color="link"><h4><FontAwesomeIcon icon={faGithub}/></h4></Button>
-                            <Button color="link"><h4><FontAwesomeIcon icon={faBrain}/></h4></Button>
-
-                            </CardText>
-                            </CardBody>
-                    </Card>
-</CardColumns>
-
-
-                </Col>
-            </Row>
-            
-        </Container>
-        <Container>
-            <Row>
-                <Col>
-                    <Container className="mt-3 mb-3 mw-25 p-2 bg-primary text-light"><h3 className="pt-1 text-center">Coming Soon</h3></Container>
-                    <CardColumns>
                     <Card>
                         <CardTitle className="mt-2">
                         <h4 className="text-center">MorenBot</h4>

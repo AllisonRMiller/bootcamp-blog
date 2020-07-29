@@ -44,7 +44,7 @@ const Landing = (props) => {
                             </CardText>
                             </CardBody>
                             <CardFooter className="text-center">
-                            <FontAwesomeIcon href="" icon={faLinkedinIn} className="ml-2 mr-3" />
+                            <FontAwesomeIcon href="https://www.linkedin.com/in/armiller-lexky" icon={faLinkedinIn} className="ml-2 mr-3" />
                             <FontAwesomeIcon href="https://github.com/AllisonRMiller" icon={faGithub} className="mr-3" />
                             <FontAwesomeIcon href="https://www.instagram.com/stormcalled/" icon={faInstagram} className="mr-3" />
                             <span href="https://www.codewars.com/users/ARMiller" className="iconify" data-icon="simple-icons:codewars" data-inline="false"></span>
